@@ -1,4 +1,4 @@
-#include "../string.h"
+#include "string.h"
 
 void *memset(void *dest, int c, unsigned int n) {
 	unsigned int val = (c << 24) | ((c & 0xFF) << 16) | ((c & 0xFF) << 8) | (c & 0xFF);
